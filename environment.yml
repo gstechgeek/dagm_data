@@ -1,0 +1,27 @@
+name: unet_env
+
+channels:
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pytest
+  - flake8
+  - rope
+  - click 
+  - jupyter
+  - pyyaml
+  - pytorch
+  - torchvision
+  - future
+  - tqdm
+  - scikit-learn
+  - opencv
+  - pip
+  - pip:
+    - torchsummary
+
